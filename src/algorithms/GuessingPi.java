@@ -43,7 +43,10 @@ if(num.equals("1")) {
 
 					// 8. If they are not, print out "incorrect" and tell them
 					//    to start over. Use 'break;' to break out of the loop.
-
+else {
+	JOptionPane.showMessageDialog(null, "incorrect! try again");
+	break;
+}
 }
 }}
 
